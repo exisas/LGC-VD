@@ -25,7 +25,7 @@ def get_seq(data_dir, dname):
     for f in filenames:
         k = 0
         # tf.enable_eager_execution()
-        for serialized_example in tf.python_io.tf_record_iterator(f):
+        for serialized_example in tf.compat.v1.python_io.tf_record_iterator(f):
             example = tf.train.Example()
             example.ParseFromString(serialized_example)
             image_seq = []
