@@ -67,9 +67,11 @@ You can train on Cityscapes with 4 GPUs using:
 python main.py --config configs/cityscape.yml
 ```
 ### Sampling
+You can change the task in `cityscape_test.ym`, and the optional tasks include video prediction, video interpolation and video generation.
 ```
 python main.py --config configs/cityscape_test.yml
 ```
+
 ### Metric
 ```
 python eva.py 
