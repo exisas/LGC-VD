@@ -1,9 +1,6 @@
 <div align="center">    
 
 ## Video Diffusion Models with Local-Global Context Guidance
-
-[![Arxiv](http://img.shields.io/badge/Arxiv-2302.10663-B31B1B.svg)](https://arxiv.org/abs/2302.10663)
-[![Conference](http://img.shields.io/badge/CVPR-2023-4b44ce.svg)](https://arxiv.org/abs/2302.10663)
 </div>
 
 
