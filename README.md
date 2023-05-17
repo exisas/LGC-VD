@@ -18,6 +18,7 @@
   * [Data preparation](#Data)
   * [Training](#Training)
   * [Sampling](#sampling)
+  * [Metric](#Calculate Metric)
 - [Acknowledgement](#acknowledgement)
 - [Citation](#citation)
 
@@ -72,7 +73,7 @@ You can change the task in `cityscape_test.ym`, and the optional tasks include v
 python main.py --config configs/cityscape_test.yml
 ```
 
-### Metric
+### Calculate Metric
 ```
 python eva.py 
 ```
