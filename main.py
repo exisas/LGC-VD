@@ -94,6 +94,7 @@ def main(rank, world_size, args):
         trainer.train()
     
     else:
+        trainer.pth_transfer()
         test_dataloader = data_load(args.data_root, stage='test', batch_size=args.batch_size_test, num_workers=args.dataloader_num_workers, frames_per_sample=30, distributed=False)
         trainer.test(test_dataloader,flag = args.task)
     #trainer.inpainting(train_dataloader)
