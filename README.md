@@ -58,9 +58,8 @@ Our video infilling results on BAIR.
 #### Cityscapes
 1. Download Cityscapes video dataset (leftImg8bit_sequence_trainvaltest.zip (324GB)) from  https://www.cityscapes-dataset.com/
 2. Convert it to HDF5 format, and save in /path/to/Cityscape_h5:
-'''
-python datasets/cityscapes_convert.py --leftImg8bit_sequence_dir '/path/to/Cityscapes/leftImg8bit_sequence' --image_size 128 --out_dir '/path/to/Cityscapes_h5' 
-'''
+    python datasets/cityscapes_convert.py --leftImg8bit_sequence_dir '/path/to/Cityscapes/leftImg8bit_sequence' --image_size 128 --out_dir '/path/to/Cityscapes_h5' 
+
 ### Training
 
 ### Testing
