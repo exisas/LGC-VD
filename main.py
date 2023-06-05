@@ -5,7 +5,6 @@ from video_diffusion_pytorch.video_diffusion_pytorch import Trainer
 from datasets.cityscape import data_load
 import argparse
 import os
-os.environ['CUDA_VISIBLE_DEVICES']='3,6'
 import torch.distributed as dist
 import torch.multiprocessing as mp
 from torch.nn.parallel import DistributedDataParallel as DDP
