@@ -5,7 +5,6 @@ batch_size_val: 1 # batch size for evaluation
 dataloader_num_workers: 0 # number of subprocesses to use for data loading. 0 means that the data will be loaded in the main process
 random_seed: 0 
 port: '22190'  # master port for ddp
-
 dim: 128 # base channel dimension
 dim_mults: [1,2,3,4]
 attn_resolutions: [32]

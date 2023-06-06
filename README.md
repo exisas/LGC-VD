@@ -3,6 +3,8 @@
 ## Video Diffusion Models with Local-Global Context Guidance
 </div>
 
+<h4 align="center"> IJCAI 2023 </h4>
+<h3 align="center"> <a href="https://arxiv.org/abs/2306.02562" target="_blank">Paper</a> </h3>
 
 ## Table of Contents
 
@@ -47,6 +49,11 @@ Our unconditional generation results on BAIR.
 Our video infilling results on BAIR.
 
 ## Running the code
+### Installation
+```
+conda create -n lgc_vd python=3.8
+pip install -r requirements.txt
+```
 ### Data 
 You can handle the dataset in the following way, or you can directly download the preprocessed dataset from https://github.com/voletiv/mcvd-pytorch.
 #### Cityscapes
@@ -65,16 +72,29 @@ You can train on Cityscapes with 4 GPUs using:
 python main.py --config configs/cityscape.yml
 ```
 ### Sampling
-You can change the task in `cityscape_test.ym`, and the optional tasks include video prediction, video interpolation and video generation.
+You can change the task in `cityscape_test.yml`, and the optional tasks include video prediction, video interpolation and video generation.
 ```
 python main.py --config configs/cityscape_test.yml
 ```
 
 ### Calculate-Metric
+The code will calculate PSNR, SSIM, LPIPS and FVD.
+
 ```
 python eva.py 
 ```
 ## Acknowledgement
 Our work is based on https://github.com/lucidrains/denoising-diffusion-pytorch
 
-
+## Citation
+If you find this project helpful for your research, please consider citing the following BibTeX entry.
+```BibTex
+@misc{yang2023video,
+      title={Video Diffusion Models with Local-Global Context Guidance}, 
+      author={Siyuan Yang and Lu Zhang and Yu Liu and Zhizhuo Jiang and You He},
+      year={2023},
+      eprint={2306.02562},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
