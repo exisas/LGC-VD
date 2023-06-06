@@ -3,8 +3,7 @@
 ## Video Diffusion Models with Local-Global Context Guidance
 </div>
 
-<h4 align="center"> IJCAI 2023 </h4>
-<h3 align="center"> <a href="https://arxiv.org/abs/2306.02562" target="_blank">Paper</a> </h3>
+<h3 align="center">IJCAI 2023, <a href="https://arxiv.org/abs/2306.02562" target="_blank">Paper</a> </h3>
 
 ## Table of Contents
 
