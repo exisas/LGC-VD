@@ -14,6 +14,7 @@
   * [Method](#method)
   * [Examples](#examples)
 - [Running the code](#running-the-code)
+  * [installation](#Installation)
   * [Data preparation](#Data)
   * [Training](#Training)
   * [Sampling](#sampling)
