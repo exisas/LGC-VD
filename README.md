@@ -72,7 +72,7 @@ You can train on Cityscapes with 4 GPUs using:
 python main.py --config configs/cityscape.yml
 ```
 ### Sampling
-The pretrained checktpoints can be found here: https://drive.google.com/file/d/1cAJVaRaJORPR2b4OH_9D4gbAWBXmqWCK/view?usp=drive_link
+The pretrained checktpoints can be found here: https://drive.google.com/file/d/1cAJVaRaJORPR2b4OH_9D4gbAWBXmqWCK/view?usp=drive_link  
 You can change the task in `cityscape_test.yml`, and the optional tasks include video prediction, video interpolation and video generation.
 ```
 python main.py --config configs/cityscape_test.yml
