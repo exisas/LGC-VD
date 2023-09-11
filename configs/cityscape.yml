@@ -1,5 +1,5 @@
 gpus: 2       # number of cuda device
-data_root: '/home/ysy/ysy/dataset/cityscape/leftImg8bit_sequence/leftImg8bit_sequence/hdf5'  #path to dataset
+data_root: 'cityscape/leftImg8bit_sequence/leftImg8bit_sequence/hdf5'  #path to dataset
 batch_size: 1  # batch size for train
 batch_size_val: 1 # batch size for evaluation
 dataloader_num_workers: 0 # number of subprocesses to use for data loading. 0 means that the data will be loaded in the main process

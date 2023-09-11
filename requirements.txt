@@ -9,7 +9,6 @@ omegaconf==2.3.0
 opencv-python==4.7.0.68
 pandas==1.5.2
 Pillow==9.2.0
-pytorch3d==0.7.2
 rich==13.0.1
 rotary-embedding-torch==0.1.5
 scikit-image==0.19.3
