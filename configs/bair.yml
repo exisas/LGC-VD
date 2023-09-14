@@ -1,0 +1,22 @@
+gpus: 2       # number of cuda device
+data_root: 'cityscape/leftImg8bit_sequence/leftImg8bit_sequence/hdf5'  #path to dataset
+batch_size: 1  # batch size for train
+batch_size_val: 1 # batch size for evaluation
+dataloader_num_workers: 0 # number of subprocesses to use for data loading. 0 means that the data will be loaded in the main process
+random_seed: 0 
+port: '22190'  # master port for ddp
+dim: 128 # base channel dimension
+dim_mults: [1,2,3,4]
+attn_resolutions: [16]
+n_head_channels: 128
+img_size: 64
+total_steps: 1000 # total diffusion steps for training
+time_respacing: '1000' # steps for sampling
+save_steps: 3000 # save checkpoints every save_steps
+train_steps: 300000
+train_lr: 0.0001
+
+train: True
+resume: False
+test: False
+amp: True
